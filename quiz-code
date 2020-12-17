@@ -1,0 +1,21 @@
+if ((age >= 9) + ((budget >= 1000)) {
+  consoleChoice = "PC!";
+} else if ((budget < 100)) {
+  consoleChoice = "Nintendo DS Lite!";
+} else if (((age < 9) + (100 <= budget < 300))) {
+  consoleChoice = "Nintendo 3DS!";
+} else if (((age < 9) + (300 <= budget))) {
+  consoleChoice = "Nintendo Switch!";
+} else if (((age >= 9) + (100 <= budget < 200))) {
+  consoleChoice = "Nintendo 3DS!";
+} else if (((age >= 9) + (400 <= budget < 500))) {
+  consoleChoice = "XBOX Series S!";
+} else if ((((age >= 9) + (200 <= budget < 400)) + (choice == "Exclusive Games!"))) {
+  consoleChoice = "PS4!";
+} else if ((((age >= 9) + (200 <= budget < 400)) + (choice == "Performance!"))) {
+  consoleChoice = "XBOX One!";
+} else if ((age >= 9) + ((500 <= budget < 1000) + (choice == "Exclusive Games!"))) {
+  consoleChoice = "PS5!";
+} else if ((age >= 9) + ((500 <= budget < 1000) + (choice == "Performance!"))) {
+  consoleChoice = "XBOX Series X";
+}
